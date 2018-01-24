@@ -1,3 +1,5 @@
+%Ozan Genç, 12/29/2017, Bogazici University, Biomedical Engineering
+
 %This function takes an array with that columns are features and rows are subjects. 
 %Last column contains class labels. Function is suitable for two classes.
 %This function eliminates statistically insignificant features by performing t-test.
@@ -5,8 +7,12 @@
 %Output1 is an array that contains statistically significant features.The last column contains class labels.
 %Output2 is indices of these features.
 
+
 %CAUTION!!!
-%
+%While using this feature selection program don't forget to use it only in training data. By using indices
+%of selected features you can select features in your test data and use it in different machine learning algorithms.  
+
+
 
 function [filtered_array,indices] = filterFeature(array)
 
