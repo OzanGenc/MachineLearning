@@ -1,4 +1,4 @@
-%Ozan Genç, 12/29/2017, Bogazici University, Biomedical Engineering
+%Ozan Genç, 1/22/2018, Bogazici University, Biomedical Engineering
 %This function is called in randomized_logistic_regression.m function to select optimal regularization parameter C.
 %You can change the values in C_parameter to try different regularization values.
 
