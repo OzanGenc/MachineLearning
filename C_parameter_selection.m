@@ -1,3 +1,6 @@
+%This function is called in randomized_logistic_regression.m function to select optimal regularization parameter C.
+%You can change the values in C_parameter to try different regularization values.
+
 function [C] = C_parameter_selection(training_set,BT2)
 
 C_parameter=[0.001 0.01 1 10 100 1000];
