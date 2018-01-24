@@ -1,3 +1,7 @@
+
+%Ozan Genç, 12/29/2017, Bogazici University, Biomedical Engineering
+
+%README
 %Feature selection algorithm via Randomized Logistic Regression
 %This code is an implementation of algorithm discussed on paper "Discriminating cognitive status in 
 %Parkinson's disease through functional connectomics and machine learning" 
