@@ -1,3 +1,30 @@
+%Feature selection algorithm via Randomized Logistic Regression
+%This code is an implementation of algorithm discussed on paper "Discriminating cognitive status in 
+%Parkinson's disease through functional connectomics and machine learning" 
+%Original paper implemented it in Python using scikit learn-library.
+
+%This function takes an array that columns are features and rows are subjects. 
+%The last column contains class label information. Function is suitable for two classes.
+%This function outputs indices of selected features. 
+%Function also outputs optimal C parameter for linear SVM
+ 
+
+%Parameters
+%Lambda this should be around 0.00001 but you can change it depending on the number of features you want to select.
+%If Lambda increases, number of features selected decreases.
+
+%Requirements
+%Statistics and Machine Learning Toolbox
+%ClassificationLearner App
+%C_parameter_selection function -- Elements of C_parameter vector can be edited to try different C values.
+
+%CAUTION!!!
+%While using this feature selection program don't forget to use it only in training data. By using indices
+%of selected features you can select features in your test data and use it in linear SVM.  
+
+
+
+
 function [BT6,C] = randomized_logistic_regression(array)
 
 [m,n]=size(array);
