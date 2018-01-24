@@ -1,3 +1,13 @@
+%This function takes an array with that columns are features and rows are subjects. 
+%Last column contains class labels. Function is suitable for two classes.
+%This function eliminates statistically insignificant features by performing t-test.
+%Bonferroni correction is made for multiple comparison.
+%Output1 is an array that contains statistically significant features.The last column contains class labels.
+%Output2 is indices of these features.
+
+%CAUTION!!!
+%
+
 function [filtered_array,indices] = filterFeature(array)
 
 cl=unique(array(:,end));
