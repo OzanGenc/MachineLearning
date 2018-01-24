@@ -1,4 +1,4 @@
-%Ozan Genç, 12/29/2017, Bogazici University, Biomedical Engineering
+%Ozan Genç, 12/18/2017, Bogazici University, Biomedical Engineering
 
 %This function takes an array with that columns are features and rows are subjects. 
 %Last column contains class labels. Function is suitable for two classes.
