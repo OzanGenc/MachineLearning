@@ -1,4 +1,4 @@
-function [array3,C] = randomized_logistic_regression(array)
+function [BT6,C] = randomized_logistic_regression(array)
 
 [m,n]=size(array);
 k=10;
