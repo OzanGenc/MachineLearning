@@ -10,8 +10,9 @@
  
 
 %Parameters
-%Lambda this should be around 0.00001 but you can change it depending on the number of features you want to select.
-%If Lambda increases, number of features selected decreases.
+%Lambda: This should be around 0.00001 but you can change it depending on the number of features you want to select.
+%If Lambda increases, number of features selected decreases. Time also increases when Lambda increases, run time can reach to several
+%hours when Lambda is large. 
 
 %Requirements
 %Statistics and Machine Learning Toolbox
